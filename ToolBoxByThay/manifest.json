@@ -1,6 +1,6 @@
 {
-  "id": "AutoRenameLayers.thay.v1",
-  "name": "AutoRenameLayersByThay",
+  "id": "ToolBoxByThay.thay.v1",
+  "name": "ToolBox",
   "version": "1.0.0",
   "main": "index.html",
   "host": [
@@ -70,7 +70,7 @@
         }
       ],
       "label": {
-        "default": "Starter Panel"
+        "default": "ToolBox - By Thay"
       }
     }
   ],
