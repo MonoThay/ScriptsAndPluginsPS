@@ -1,3 +1,7 @@
+import '@spectrum-web-components/button';
+import '@spectrum-web-components/textfield';
+import '@spectrum-web-components/combobox';
+
 const { entrypoints } = require("uxp");
 
   showAlert = () => {

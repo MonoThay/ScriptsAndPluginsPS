@@ -6,7 +6,7 @@
   "host": [
     {
       "app": "PS",
-      "minVersion": "26.5.0"
+      "minVersion": "24.0"
     }
   ],
   "manifestVersion": 5,
@@ -101,6 +101,9 @@
         "lightest",
         "light"
       ]
+    },
+    {
+      "enableSWCSupport": true
     }
   ]
 }

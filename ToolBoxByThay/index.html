@@ -5,13 +5,17 @@
     <link rel="stylesheet" href="style.css">   
 </head>
 <body>
-  <sp-tabs selected="1" quiet compact direction="vertical">
-    <sp-tab label="ReplaceLayerName" value="1"></sp-tab>
-    <sp-tab label="DeleteAnimation" value="2"></sp-tab>
-    <sp-tab label="MakePosition" value="3"></sp-tab>
-    <sp-tab-panel value="1">Content for Tab 1</sp-tab-panel>
-    <sp-tab-panel value="2">Content for Tab 2</sp-tab-panel>
-    <sp-tab-panel value="3">Content for Tab 3</sp-tab-panel>
-</sp-tabs>
+  <h1>Replace Layer Name</h1>
+    <sp-field-group horizontal id="textArea">
+      <sp-field-label for="oldText">Old text</sp-field-label>
+      <sp-textfield id="oldText" placeholder="CoinFestival_V"></sp-textfield>
+      <sp-field-label for="NewText">New text</sp-field-label>
+      <sp-textfield id="NewText" placeholder="HotBlitz_V"></sp-textfield>
+    </sp-field-group>
+    <sp-field-label for="ActiveLayers">Select Layers</sp-field-label>
+    <sp-combobox id="ActiveLayers">
+      <sp-menu-item value="allLayers">All Layers</sp-menu-item>
+      <sp-menu-item value="selectLayers">Select Layers</sp-menu-item>
+    </sp-combobox>
 </body>
 </html>
